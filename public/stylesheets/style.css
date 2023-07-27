@@ -35,7 +35,8 @@ footer {
 }
 
 .img-footer {
-    width: 5%;
+    length: 20px;
+    width: 20px;
 }
 
 input {
