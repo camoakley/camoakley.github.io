@@ -14,6 +14,14 @@ h1 {
     color: white;
 }
 
+img {
+    width: 65%;
+}
+
+.img-flex {
+    display: flex;
+}
+
 input {
     border: 2px solid;
     border-radius: 4px;
@@ -37,10 +45,4 @@ table {
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-}
-#imgCameron {
-    width: 65%;
-}
-#aboutContent {
-    display: flex;
 }
