@@ -15,8 +15,8 @@ h1 {
 }
 
 img {
-    object-fit: contain;
-    width: 65%;
+    length: 150px;
+    width: 150px;
 }
 
 .img-flex {
@@ -32,11 +32,6 @@ li {
 
 footer {
     color: white;
-}
-
-img {
-    length: 150px;
-    width: 150px;
 }
 
 .img-footer {
