@@ -34,6 +34,11 @@ footer {
     color: white;
 }
 
+img {
+    length: 150px;
+    width: 150px;
+}
+
 .img-footer {
     length: 20px;
     width: 20px;
