@@ -15,12 +15,19 @@ h1 {
 }
 
 img {
+    object-fit: contain;
     width: 65%;
 }
 
 .img-flex {
     display: flex;
     justify-content: space-evenly;
+}
+
+li {
+    margin: auto;
+    text-align: left;
+    width: 65%;
 }
 
 input {
