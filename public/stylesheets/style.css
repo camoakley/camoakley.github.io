@@ -30,6 +30,14 @@ li {
     width: 65%;
 }
 
+footer {
+    color: white;
+}
+
+.img-footer {
+    width: 5%;
+}
+
 input {
     border: 2px solid;
     border-radius: 4px;
