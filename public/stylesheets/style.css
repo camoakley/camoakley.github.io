@@ -15,11 +15,12 @@ h1 {
     text-align: center;
 }
 
-nav, h2 {
+footer, h2, nav {
     text-align: center;
 }
 
 img {
+    justify-content: center;
     length: 150px;
     width: 150px;
 }
