@@ -50,17 +50,55 @@
 
                     <h2> Project Details </h2>
                     <hr>
-
+                    <p>
+                        Mobile Adhoc Networks (MANETs) is an underresearched approach to wireless network architectures. 
+                        There are a few key differences that seperates MANETs from open wireless netowrks. The first being, that 
+                        nodes have the ability to join the network and use network resources without approval from a central authority. 
+                        Additionally, nodes can leave the network without much impact to efficiency and reliabilty. Another important 
+                        feature of a MANET is that nodes act as routers. In a traditional wireless network, devices act as a client 
+                        share the network resources. In MANETs, nodes play a role in routing information through the network. Lastly, the network
+                        is self-sustaining as nodes in this network are meant to be mobile, the network architecture is constantly 
+                        adapting to changes within the network.
+                    </p>
+                    <p>
+                        In order for a MANET to operate efficiently, there needs to be a level of trust between the nodes. This level
+                        of trust can be easily exploited by malcious nodes. MANETs are susceptible to the same layer 3 attacks as 
+                        traditional networks. Although, given the fact that nodes play a role in routing information within the network, a malicious node has 
+                        the ability to drop all of the packets sent to it. This is called a Blackhole attack which can disrupt the 
+                        reliability of the network.
+                    </p>
+                    <p>
+                        Several methods have been introduced to find and prevent blackhole attacks. A brute-force approach is to 
+                        try one route and if there is no response, then try another route. Another approach is to increase the 
+                        number of ACK messages sent, nodes in the path to the destination node will send ACK messages to the 
+                        origin node so that the origin knows packets have not been dropped. The most efficient approach seems 
+                        to be keeping a table in memory that tracks the level of trust between known neighboring nodes. Essentially, 
+                        if two nodes have a successful packet transmission, then they will trust each other more.
+                    </p>
                     <br>
 
                     <h2> Goals of The Project </h2>
                     <hr>
-
+                    <p>
+                        By the end of this project, I will have developed my own strategy to find blackhole nodes and prevent trusted 
+                        nodes from sending packets in their direction. 
+                    </p>
                     <br>
 
                     <h2> Interesting Things I Am Finding </h2>
                     <hr>
-
+                    <p>
+                        Right now, I am currently looking into different routing protocols that I can use in a
+                        simulated environment. One of the most popular MANET routing protocols is 
+                        <a href="">Better Approach To Mobile AdHoc Networks</a> (B.A.T.M.A.N.). This routing 
+                        protocol is an open-source protocol that only considers layer 2 information as opposed 
+                        to the well-established layer 3 methods.
+                        <br>
+                        I am currently investigating how the protocol determines the cost of each path. To do this,
+                        I first need to familiarize myself with structs in C. Also, I am attempting to install BATMAN on 
+                        a Linux VM, but am struggling to accomplsih this due to there being no gudies for it. Most of 
+                        the guides online seem to be focused on installing BATMAN on the <a href="">OpenWRT OS</a>. 
+                    </p>
                     <br>
 
                     <hr>
