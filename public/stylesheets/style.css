@@ -21,6 +21,7 @@ footer, h2, nav {
 
 img {
     justify-content: center;
+    margin: auto 0;
     length: 150px;
     width: 150px;
 }
@@ -43,25 +44,6 @@ footer {
 .img-footer {
     length: 20px;
     width: 20px;
-}
-
-input {
-    border: 2px solid;
-    border-radius: 4px;
-    padding: 6px 14px;
-}
-
-button {
-    align-items: center;
-    background: #6E6D70;
-    border-radius: 6px;
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-    padding: 6px 14px;
-}
-
-button:hover {
-    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
 }
 
 table {
