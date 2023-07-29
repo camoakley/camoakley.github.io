@@ -24,14 +24,16 @@
         <section>
             <div class="card">
                 <div class="card-body">
-                    <h2> About My Research </h2>
+                    <h2> Research At CSUMB </h2>
                     <hr>
+                    <h3> UROC </h3>
                     <p> 
                         At CSUMB, I am apart of a program called <a href="https://csumb.edu/uroc/">UROC</a> which is an undergraduate research 
                         program. The goal of the program is to provide undergraduate students with an opportunity
                         to conduct graduate-level research. Each participant works on a project with the help of
                         their research advisor. 
                     </p>
+                    <h3> Project Details </h3>
                     <p> 
                         The focus of my research falls under the category of mesh networks, mesh network security, and 
                         layer 3 attacks. Specifically, I am investigating Blackhole attacks, which is a form of 
@@ -40,16 +42,19 @@
                         Networks course. We created this project as I was enrolled in that course. Mesh networks 
                         were something that me and a fellow classmate shared an interest in.
                     </p>
-
-
-                    <img alt="UROC Showcase Spring 2023" src="public/images/2023_uroc.jpg">
-                    <figcaption> 
-                        <b>Circa May 2023</b>, this photo is me presenting my poster at a research conference at CSUMB.
-                    </figcaption>
+                    <div class="img-flex">
+                        <div>
+                            <img alt="UROC Showcase Spring 2023" src="public/images/2023_uroc.jpg">
+                            <figcaption> 
+                                <b>Circa May 2023</b>, this photo is me presenting my poster at a research conference at CSUMB.
+                            </figcaption>
+                        </div>
+                    </div>
                     <br>
 
-                    <h2> Project Details </h2>
+                    <h2> About My Project </h2>
                     <hr>
+                    <h3> What Is The Field?</h3>
                     <p>
                         Mobile Adhoc Networks (MANETs) is an underresearched approach to wireless network architectures. 
                         There are a few key differences that seperates MANETs from open wireless netowrks. The first being, that 
@@ -60,6 +65,7 @@
                         is self-sustaining as nodes in this network are meant to be mobile, the network architecture is constantly 
                         adapting to changes within the network.
                     </p>
+                    <h3> What Is A Blackhole Attack </h3>
                     <p>
                         In order for a MANET to operate efficiently, there needs to be a level of trust between the nodes. This level
                         of trust can be easily exploited by malcious nodes. MANETs are susceptible to the same layer 3 attacks as 
@@ -67,9 +73,10 @@
                         the ability to drop all of the packets sent to it. This is called a Blackhole attack which can disrupt the 
                         reliability of the network.
                     </p>
+                    <h3> Solutions For Blackhole Attacks </h3>
                     <p>
                         Several methods have been introduced to find and prevent blackhole attacks. A brute-force approach is to 
-                        try one route and if there is no response, then try another route. Another approach is to increase the 
+                        try one route and a node doesn't recceive any response, then it tries another route. Another approach is to increase the 
                         number of ACK messages sent, nodes in the path to the destination node will send ACK messages to the 
                         origin node so that the origin knows packets have not been dropped. The most efficient approach seems 
                         to be keeping a table in memory that tracks the level of trust between known neighboring nodes. Essentially, 
@@ -77,16 +84,20 @@
                     </p>
                     <br>
 
-                    <h2> Goals of The Project </h2>
+                    <h2> Goals Of The Project </h2>
                     <hr>
                     <p>
                         By the end of this project, I will have developed my own strategy to find blackhole nodes and prevent trusted 
-                        nodes from sending packets in their direction. I like the approach of developing a trust table. 
+                        nodes from sending packets in their direction. I like the approach of developing a trust table as it seems the
+                        most efficient and reliable. One thing I am taking into considereation, is the amount of memory I am using the 
+                        manage trust tables. The devices that people typically join to a MANET don't have as much processing power as a 
+                        regular computer.
                     </p>
                     <br>
 
                     <h2> Interesting Things I Am Finding </h2>
                     <hr>
+                    <h3> B.A.T.M.A.N. </h3>
                     <p>
                         Right now, I am currently looking into different routing protocols that I can use in a
                         simulated environment. One of the most popular MANET routing protocols is 
@@ -124,7 +135,7 @@
                     <img class="img-footer" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"> 
                     <a href="https://github.com/camoakley">camoakley</a>
                 </div>
-                <p> Last updated: 2023-07-27</p>
+                <p> Last updated: 2023-07-28</p>
                 <br>
             </footer>
         </section>
