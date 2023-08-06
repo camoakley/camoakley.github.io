@@ -6,48 +6,53 @@ html {
 }
 
 body {
-    text-align: left;
-    font-family: Helvetica, sans-serif;
+    font-family: Georgia, serif;
+    padding: 15px;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+h1, h2, h3 {
+    color: #527bbd;
+    font-weight: 500;
 }
 
-footer, h2, nav {
-    text-align: center;
+a {
+    color: #224b8d;
+    font-weight: 600;
+    text-decoration: none;
 }
 
-img {
-    length: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+a:hover {
+    color: skyblue;
+    text-decoration: underline;
 }
 
-.img-flex {
+#navDiv, #mediaDiv {
     display: flex;
     justify-content: space-evenly;
 }
 
-li {
-    margin: auto;
-    text-align: left;
-    width: 65%;
-}
-
-footer {
-    color: white;
-}
-
-.img-footer {
+.icons {
     length: 20px;
     width: 20px;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
+#professional_photo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#headerInfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#presentationPics {
+    justify-content: center;
+    margin: auto;
+    width: 45%;
+}
+
+#uroc {
+    width: 100%;
 }
