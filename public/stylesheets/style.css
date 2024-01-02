@@ -26,9 +26,19 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+    width: 20%; 
+    height: 20%; 
+}
+
 #navDiv, #mediaDiv {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.navA {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .icons {
@@ -37,7 +47,7 @@ a:hover {
 }
 
 #professional_photo {
-    border-radius: 50%;
+    border-radius: 35%;
     height: 200px;
     width: 200px;
 }
@@ -47,12 +57,8 @@ a:hover {
     justify-content: space-around;
 }
 
-#presentationPics {
+.picDiv {
+    align-items: center;
     justify-content: center;
-    margin: auto;
-    width: 45%;
-}
-
-#uroc {
-    width: 100%;
+    margin: 0;
 }
