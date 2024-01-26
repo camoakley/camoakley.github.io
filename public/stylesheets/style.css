@@ -1,66 +1,134 @@
-html {
-    height: 100%;
-    justify-content: center;
-    margin: auto;
-    width: 65%;
+/* HEADER */
+
+#headerSec {
+    background-color: #29293d; 
+    color: white;
 }
 
-body {
-    font-family: Georgia, serif;
-    padding: 15px;
-}
-
-h1, h2, h3 {
-    color: #527bbd;
-    font-weight: 500;
-}
-
-a {
-    color: #224b8d;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-a:hover {
-    color: skyblue;
-    text-decoration: underline;
-}
-
-img {
-    width: 20%; 
-    height: 20%; 
-}
-
-#navDiv, #mediaDiv {
+#headerDiv {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin: auto;
+    padding: 2em;
+    width: 85%;
 }
 
-.navA {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.icons {
-    length: 20px;
-    width: 20px;
-}
-
-#professional_photo {
-    border-radius: 35%;
+#professionalPhoto {
+    border-radius: 50%;
     height: 200px;
     width: 200px;
 }
 
-#headerInfo {
+/* NAV BAR */
+
+nav {
+    padding: 1em;
+    text-align: center;
+}
+
+.navA {
+    color: white
+    padding-right: 1em;
+    padding-left: 1em;
+    text-decoration: none;
+}
+
+.navDiv {
+    padding-right: 2em;
+}
+
+#navSec {
+    background-color: #666699; 
+}
+
+/* CONTENT */
+
+#bioSec, #projectSec, #researchSec {
+    margin: auto;
+    width: 75%;
+}
+
+/* FOOTER  */
+
+#footerSec {
+    background-color: #29293d; /* 666699 */
+    color: white;
+    font-size: 15px;
+}
+
+#footerDiv {
+    margin: auto;
+    width: 65%;
+}
+
+#footerRow1 {
+    column-gap: 2em;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+}
+
+.footerA {
+    text-decoration: none;
+}
+
+.footerA:visited {
+    color: #004d99;
+}
+
+.footerA:hover, .navA:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footerHR {
+    color: white;
+    width: 50px;
+}
+
+.footerRow1Div {
+    padding: 2em;
+    width: 25%;
+}
+
+.footerStrong {
+    font-size: 18.5px;
+}
+
+#updatedSec {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: .5em;
+    text-align: center;
+}
+
+/* HTML TAGS */
+
+html {
+    background-color: black;
+}
+
+.headerA {
+    text-decoration: none;
+}
+
+.headerA:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* IMAGES */
+
+.imgPresentation {
+    height: 400px;
+    width: 500px;
+}
+
+.imgPresentationDiv {
+    padding: 2em;
 }
 
 .picDiv {
-    align-items: center;
+    display: flex;
     justify-content: center;
-    margin: 0;
+    text-align: center;
 }
-
-/**/
